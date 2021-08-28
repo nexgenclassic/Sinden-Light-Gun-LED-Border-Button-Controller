@@ -6,6 +6,11 @@ It is dual purpose code for the  Arduino Micro. It controls two individually add
 It is controllable via serial interface through USB connection (compatible with autohotkey/eventghost). 
 Additionally it provides keyboard functionality for arcade cabinet buttons across the remaining free DIO pins.
 
+The light border should ideally use the 144 LED/Meter strip lighting behind a diffuser, however succcess has been had with 60 LED/Meter strip without diffuser if you are on a budget.
+
+4:3 Games can be played at native resolution (without stretching) by adjusting the Sinden SW Cursor Offset tab settings to: X Offset:-012.5, X Ratio:1.25, Y Offset:0, Y Ratio:01.
+You can automate the 4:3 configuration loading via lanuchbox (or other), by having multiple installs of the sinden SW which are closed and run by your game lanucher.
+
 This is a template shared as a basis for individuals to modify, the code is dirty in places, but functional. Please make pull requests if you improve the code and i'll endeavour to review and update.
 
 /**************************************************************************
