@@ -112,8 +112,6 @@ void setup() {
   Serial.println("< Arduino Button KB / LED Controller is ready >");
     
   // tell FastLED about the LED strip configuration
-  //FastLED.addLeds<LED_TYPE,LED_STRIP0_PIN,COLOR_ORDER>(leds0, STRIP0_NUM_LEDS).setCorrection(TypicalLEDStrip);
-  //FastLED.addLeds<LED_TYPE,LED_STRIP1_PIN,COLOR_ORDER>(leds1, STRIP1_NUM_LEDS).setCorrection(TypicalLEDStrip);
   FastLED.addLeds<LED_TYPE,LED_STRIP0_PIN,COLOR_ORDER>(leds0, STRIP0_NUM_LEDS).setCorrection(TypicalLEDStrip);
   FastLED.addLeds<LED_TYPE,LED_STRIP1_PIN,COLOR_ORDER>(leds1, STRIP1_NUM_LEDS).setCorrection(TypicalLEDStrip);
   
