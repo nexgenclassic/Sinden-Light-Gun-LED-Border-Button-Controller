@@ -14,12 +14,12 @@ This is a template shared as a basis for individuals to modify, the code is dirt
  * Coded for use with two LED strips, Strip 0 is for general use, Strip 1 is for the display light border 
  * Coded for use on an Audrino Micro, the Audrino must have USB controller (leonardos or equivalents)
  * Serial commands can be sent via autohotkey/eventghost etc... options include:-  
- *    T = set pattern transition time");
- *    B = set brightness, ");
- *    L = toggle full serial logging");
- *    M+/- = switch pattern");
- *    R = toggle pattern rotation");
- *    S+/- = to enable sinder border, S to toggle");
+  *    T = set pattern transition time");
+  *    B = set brightness, ");
+  *    L = toggle full serial logging");
+  *    M+/- = switch pattern");
+  *    R = toggle pattern rotation");
+  *    S+/- = to enable sinder border, S to toggle");
  *    
  * NOTE: Serial commands must be terminated with "\n"
  * 
