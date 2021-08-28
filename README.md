@@ -27,4 +27,5 @@ This is a template shared as a basis for individuals to modify, the code is dirt
  * https://github.com/FastLED/FastLED/wiki/Multiple-Controller-Examples
  * https://www.arduino.cc/en/Reference/KeyboardModifiers 
  * http://www.asciitable.com/
+ * 
  **************************************************************************/
